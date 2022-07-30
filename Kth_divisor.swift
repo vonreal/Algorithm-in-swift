@@ -7,7 +7,6 @@ func solution(_ input: String) {
     for num in 1...N {
         if (N % num == 0) {
             count += 1
-            print("[\(count)번째]N의 약수: \(num)")
         }
         if (count == K) {
             print(num)
